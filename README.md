@@ -1,2 +1,13 @@
-# hypermarket-logistics-ai
-AI-driven modular route optimization and predictive order picking engine for large-scale retail hypermarkets
+# Hypermarket Logistics AI (Smart Retail Picker Engine)
+
+Универсальный масштабируемый движок на Python для предиктивной сборки заказов и динамической оптимизации маршрутов сотрудников e-commerce в условиях крупных офлайн-гипермаркетов.
+
+## 🚀 Ключевые возможности системы (Features):
+1. **Dynamic Route Optimization (O(N) Complexity)**: Алгоритм группировки товаров по физическим координатам зон магазина, полностью исключающий лишний километраж сборщика [1.1].
+2. **Predictive Demand & Time-to-Shelf Model (ML)**: Машинное обучение для прогнозирования пиковых нагрузок с учетом часов пик, дней недели и специфики категорий товаров [1.3].
+3. **Smart Item Substitution Engine**: Интеллектуальный модуль предсказания остатков на полках на основе исторического анализа замен товара [1.3].
+
+## 🛠 Стек технологий (Tech Stack):
+* **Language**: Python 3.11+
+* **Data & ML**: NumPy, Pandas, Scikit-learn [1.1, 1.3]
+* **API Framework**: FastAPI
