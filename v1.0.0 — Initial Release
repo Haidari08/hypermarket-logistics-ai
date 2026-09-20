@@ -1,0 +1,9 @@
+Первый релиз Hypermarket Logistics AI.
+
+Возможности:
+- Async FastAPI backend
+- ML-прогноз нагрузки (LinearRegression)
+- ML-подбор замены (LogisticRegression)
+- Динамическая маршрутизация по зонам магазина
+- Excel-отчёты эффективности смены
+- Docker Compose оркестрация
